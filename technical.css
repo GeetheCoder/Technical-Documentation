@@ -1,0 +1,124 @@
+
+@media screen (min-width: 1000px) {
+    #narbar{
+        float: left;
+    }
+    #main-doc{
+        
+        margin-left: 10px;
+        width: 1000px;
+        
+        
+    }
+}
+
+
+
+
+@media screen (min-width: 576px) { 
+}
+
+
+@media screen (min-width: 768px) { 
+}
+
+
+@media screen (min-width: 992px) { 
+}
+
+
+@media screen (min-width: 1200px) { 
+}
+
+
+header{
+    font-weight: thin;
+    font-size: 1.8em;
+    text-align: left;
+    margin: 0px;  
+    color: black;
+}
+p{
+  display: block;
+ 
+  
+}
+section article{
+ color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;   
+    
+}
+
+.navbar-vertical ul{
+    height: 88%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    
+}
+.navbar-vertical{
+    display: block;
+    height: 100%;
+    line-height: 24px;
+    min-height: 290px;
+    position: fixed;
+    top: 0px;
+    width: 300px;
+    border-right: solid;
+    background-color: white;
+    border-right-width: 1;
+    border-color: rgba(0,22,22,0.4);
+    
+}
+.navbar-vertical a{
+    
+   color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.navbar-vertical li{ 
+    color: #4d4e53;
+    border: 1px solid;
+    border-bottom-width: 1px;
+    border-right: 1px solid;
+    
+    padding: -10px;
+    padding-left: 15px;
+    list-style: none;
+    position: relative;
+    left: -50px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+.nav-item2{
+    
+    
+
+  
+}
+#add-padding{
+    padding-bottom: 10px;
+}
+
+li{
+    display: list-item;
+    text-align: inherit;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+   margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+#main-doc{
+    position: absolute;
+    margin-left: 290px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
